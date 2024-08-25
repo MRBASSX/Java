@@ -1,0 +1,52 @@
+package Datatypes;
+
+
+import java.util.Scanner;
+
+public class DatatypesAndVariables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//		System.out.println("Hello Africa");
+		
+//		Taking input From The User 
+		
+		Scanner  MrAbass = new Scanner(System.in);
+		
+		
+		System.out.println("Hi am Cotana, What is your name ?");
+		String names = MrAbass.nextLine();
+		
+		System.out.println("Hello " + names + ", nice to meet you" );
+		
+       
+		
+//		Calculator +,- ,* ,/ 
+		
+		Scanner  CalInput = new Scanner(System.in);
+		
+		System.out.print("Input First Number");
+		float FirstNumber = CalInput.nextFloat();
+		
+		System.out.print("Input Second Number");
+		float SecondNumber = CalInput.nextFloat();
+		
+		System.out.print("The sum of " + FirstNumber + " + " + SecondNumber + " == " + FirstNumber + SecondNumber);
+		System.out.print("The product of " + FirstNumber + " * " + SecondNumber + " == " + FirstNumber * SecondNumber);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
