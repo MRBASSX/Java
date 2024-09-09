@@ -11,4 +11,5 @@
         <maven.compiler.target>22</maven.compiler.target>
         <exec.mainClass>com.mycompany.softwareengineer.SoftwareEngineer</exec.mainClass>
     </properties>
+    <name>SoftwareEngineeringLevelThreeWeekends</name>
 </project>

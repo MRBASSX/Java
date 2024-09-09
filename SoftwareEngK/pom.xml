@@ -9,6 +9,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>22</maven.compiler.source>
         <maven.compiler.target>22</maven.compiler.target>
-        <exec.mainClass>com.mycompany.softwareengk.SoftwareEngK</exec.mainClass>
+        <exec.mainClass>com.mycompany.softwareengk.SoftwareEngineeringLevelThreeWeedays</exec.mainClass>
     </properties>
+    <name>SoftwareEngineeringLevelThreeWeedays</name>
 </project>

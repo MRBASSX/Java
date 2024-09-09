@@ -8,7 +8,7 @@ package com.mycompany.softwareengk;
  *
  * @author the-brain
  */
-public class SoftwareEngK {
+public class SoftwareEngineeringLevelThreeWeedays {
 
     public static void main(String[] args) {
         System.out.println("Hello World! 22");
