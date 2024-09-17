@@ -232,29 +232,46 @@ public class SoftwareEngineeringLevelThreeWeedays {
 //}
 //
 //
-String[] MyArray = {"12","123"};
 
-System.out.println(FunMeaning1(MyArray)[1]);
-System.out.println(FunMeaning2());
+
+if (CanVoteNote(17)){
+
+    System.out.println("Can Vote");
+}else {
+    
+    System.out.println("CanT Vote");
+
 }
 
 
-  static String[] FunMeaning1(String[] args ){
-
-      String[] MyArray = args ;
-
-
- return MyArray;
 }
+    
+    public static Boolean CanVoteNote(int age){
+        
+        return  age >=18 ;
+    
+    }
+    
+    
+ static int AddTwoNumber(double FirstNumber, char SecondNumber){
+
+    char test = SecondNumber;
+    System.out.println("The char is  "+ test);
+    
+    int test2 = test;
+    
+    System.out.println("The Sum Of " + FirstNumber +  " + " + test2 + " == " + (FirstNumber + SecondNumber));
+
+return 34;
+}
+
+
+    
+    
+    
+    
+    
   
- 
-  static int FunMeaning2(){
-
-
-
-return 1 ;
-
-}
     
     
     
@@ -309,6 +326,11 @@ return 1 ;
      
   
 }
+ 
+ 
+ 
+ 
+ 
 
 
 
