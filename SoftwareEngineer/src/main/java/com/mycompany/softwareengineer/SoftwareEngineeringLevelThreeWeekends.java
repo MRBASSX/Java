@@ -198,4 +198,27 @@ for(int j = 0;   j < 10;   j  = j +1){
     
     
     }
+    
+   public static void ControlStament(){
+          
+//       if Statement
+
+
+
+//       if else Statement
+
+
+//       if else if  else Statement
+
+
+
+//       nested if Statement
+
+
+      
+   
+   }
+   
+   
+   
 }
