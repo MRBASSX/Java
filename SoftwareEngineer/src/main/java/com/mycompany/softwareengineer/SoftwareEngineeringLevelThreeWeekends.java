@@ -20,7 +20,8 @@ public class SoftwareEngineeringLevelThreeWeekends {
 //        Relational();
 //     BitwiseOperator();
 //LoopControl();
-           Arrays();
+//           Arrays();
+ControlStament();
     }
     
     
@@ -39,11 +40,9 @@ public class SoftwareEngineeringLevelThreeWeekends {
         
     }
     
-    
-    public static void LogicalOperator(){
+public static void LogicalOperator(){
     
 //        &&(and) , ||(or), ! (not)
-
 
  Boolean A = true;
  Boolean B = false;
@@ -51,16 +50,13 @@ public class SoftwareEngineeringLevelThreeWeekends {
  
  Boolean IsTrueOrFalse = !(A || B) && C;
  
- System.out.println(IsTrueOrFalse);
- 
-    
+ System.out.println(IsTrueOrFalse); 
     }
     
     
-    public static void Relational(){
+public static void Relational(){
         
 //        == , >= , <= ,> ,< ,!= 
-
 
 boolean IsTrue;
 
@@ -79,7 +75,7 @@ System.out.println(IsTrue);
     
     
     
-    public static void BitwiseOperator(){
+public static void BitwiseOperator(){
         
 //        & , | , ~
 
@@ -203,16 +199,80 @@ for(int j = 0;   j < 10;   j  = j +1){
           
 //       if Statement
 
+boolean GhanaCard = true;
+boolean Passport = false;
+boolean VoterId = true;
+
+if(GhanaCard){
+    System.out.println("Ghana Card will be used");
+}
+
+if(Passport){
+    System.out.println("Passport will be used");
+}
+
+if(VoterId){
+    System.out.println("VoterId will be used");
+}
+      
+
 
 
 //       if else Statement
 
+if(GhanaCard){
+    System.out.println("Ghana Card will be used");
+}
+else{
+     System.out.println("You need Valid  GhanaCard");
+    }
+
+if(Passport){
+    System.out.println("Passport will be used");
+}else{
+    System.out.println("You need Valid  Passport");
+}
+
+if(VoterId){
+    System.out.println("VoterId will be used");
+}else {
+     System.out.println("You need Valid  VoterId");
+      }
 
 //       if else if  else Statement
+
+if(GhanaCard){
+    System.out.print("Ghana Card will be used");
+}
+else if(Passport){
+    System.out.print("Passport will be used");
+}
+else if(VoterId){
+    System.out.print("VoterId will be used");
+}
+else{
+  System.out.print("You need Valid GhanaCard ,Passport or VoterId");
+} 
 
 
 
 //       nested if Statement
+ if(GhanaCard){
+    System.out.print("Ghana Card will be used");
+    
+    if(Passport){
+        
+     System.out.print("Passport will be used");
+     
+       if(VoterId){
+           
+         System.out.print("VoterId will be used");
+         
+         System.out.print(" GhanaCard ,Passport and VoterId is Valid");
+       }
+    }
+ }
+
 
 
       
