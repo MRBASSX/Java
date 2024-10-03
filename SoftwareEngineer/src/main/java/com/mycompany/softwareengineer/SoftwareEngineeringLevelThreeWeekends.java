@@ -21,7 +21,22 @@ public class SoftwareEngineeringLevelThreeWeekends {
 //     BitwiseOperator();
 //LoopControl();
 //           Arrays();
-ControlStament();
+ String[][] qwerty = {
+        {"English" ,"French","Akan"},
+        {"English" ,"French","Akan"},
+        {"English" ,"French","Akan"}
+    };
+  NewClass object = new NewClass();
+  
+  for(int i = 0; i < object.printqwerty(qwerty).length; i = i+1){
+  
+      for(int j =0 ; j <object.printqwerty(qwerty).length; j =j+1){
+      
+      System.out.println(object.printqwerty(qwerty)[i][j]);
+      }
+  
+  }
+  
     }
     
     
@@ -279,6 +294,15 @@ else{
    
    }
    
+   
+  void FunCtion(){
+   
+   
+   System.out.println("This is a Void Function");
+   
+   
+   
+   }
    
    
 }
